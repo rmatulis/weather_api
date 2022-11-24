@@ -26,7 +26,7 @@ def verify_credentials(username, password):
     return (username, password) == ('metrics', 'metrics')
 
   
-@app.route('/returnjson/<city>', methods = ['GET'])
+@app.route('/weather/<city>', methods = ['GET'])
 @metrics.summary('requests_by_status', 'Request latencies by status', labels={'status': lambda r: r.status_code})
 @metrics.counter(
     'response_by_status', 'Request Count by status', labels={
