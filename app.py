@@ -6,8 +6,6 @@ from requests.adapters import HTTPAdapter, Retry
 import os
 import json
 
-
-
 # init flask
 app =   Flask(__name__)
 
