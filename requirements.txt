@@ -1,5 +1,5 @@
 charset-normalizer==2.1.1
-Flask==2.2.2
+Flask==2.3.2
 Flask-HTTPAuth==4.7.0
 importlib-metadata==5.0.0
 itsdangerous==2.1.2
